@@ -88,8 +88,8 @@ input[type="color"]:focus,
 
 .wrap.custom-search-banner-wrap {
   @include border-radius;
-  height: 350px;
-  padding: 6.5em 0 3em;
+  //height: 350px;
+  //padding: 6.5em 0 3em;
 }
 
 .category-box-inner {
@@ -330,7 +330,8 @@ a:hover {
 }
 
 .custom-search-banner-wrap h1, .custom-search-banner-wrap p {
-  color: $color-white;
+  //color: $color-white;
+  color: var(--primary);
 }
 
 .btn[href] {
