@@ -115,3 +115,9 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 	color: var(--secondary);
 }
 
+.nav-stacked a.active {
+	color: var(--secondary);
+	background-color: $color-mint;
+	position: relative;
+	--arrow-thickness: 8px;
+}
