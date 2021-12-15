@@ -54,7 +54,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     transition: all 0.3s linear;
     border-radius: 10px;
     text-transform: none;
-    border: 1px solid $color-mint;
+    border: 1px solid $color-mint-dark;
 }
 
 html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touch .btn-icon.btn-default .d-icon {
@@ -76,11 +76,22 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     background: $color-mint;
     cursor: pointer;
     transition: all 0.25s;
+    border: 1px solid $color-mint-dark;
 }
 
 .select-kit.dropdown-select-box .dropdown-select-box-header {
     background: $color-mint;
     border-radius: 10px;
-    border: 1px solid var(--tertiary);
+    border: 1px solid $color-mint-dark;
     color: var(--secondary);
+}
+
+.d-toc-regular .d-toc-toggle {
+    position: fixed;
+    bottom: 5px;
+    padding: 0.5em 1em;
+    background: $color-mint;
+    color: var(--secondary, #fff);
+    z-index: 3;
+    margin-bottom: env(safe-area-inset-bottom);
 }
