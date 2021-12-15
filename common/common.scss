@@ -63,7 +63,7 @@ input[type="color"]:focus,
     box-shadow: 0 8px 60px 0 rgba(103,151,255,.10), 0 12px 90px 0 rgba(133,255,103,.10);
     .header-wrapper {
       color: var(--primary);
-      background-color: transparent;
+      background-color: revert;
       .btn-primary {
         display: none;
       }
