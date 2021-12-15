@@ -63,7 +63,7 @@ input[type="color"]:focus,
     box-shadow: 0 8px 60px 0 rgba(103,151,255,.10), 0 12px 90px 0 rgba(133,255,103,.10);
     .header-wrapper {
       color: var(--primary);
-      background-color: revert;
+      background-color: transparent;
       .btn-primary {
         display: none;
       }
@@ -475,6 +475,20 @@ p>img:not(.emoji){
 .md-table table thead tr {
 	background-color: revert;
 	border-top: 1px solid var(--border-default);
+}
+
+.list-controls .combo-box .combo-box-header {
+	border: none;
+	border-radius: 10px;
+	background-color: revert;
+}
+
+.nav-pills li a.active {
+	border-radius: 10px;
+	transition: all 0.3s linear;
+	/* background: #75BDAD; */
+	color: var(--secondary);
+	/* border: 1px solid #75BDAD; */
 }
 
 // Christmas hats
