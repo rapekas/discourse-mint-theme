@@ -56,3 +56,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     text-transform: none;
     border: 1px solid $color-mint;
 }
+
+html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touch .btn-icon.btn-default .d-icon {
+    color: $color-box-shadow;
+}
