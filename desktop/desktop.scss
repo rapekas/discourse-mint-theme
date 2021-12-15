@@ -95,3 +95,12 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     z-index: 3;
     margin-bottom: env(safe-area-inset-bottom);
 }
+
+.menu-panel .d-label {
+	color: revert;
+}
+
+.alert.alert-info {
+	background-color: $color-mint-light;
+	color: var(--primary);
+}
