@@ -491,6 +491,23 @@ p>img:not(.emoji){
 	/* border: 1px solid #75BDAD; */
 }
 
+.select-kit.single-select.dropdown-select-box .select-kit-header {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	border: 2px solid var(--tertiary);
+}
+
+#create-topic {
+	color: var(--secondary);
+	background: var(--tertiary);
+	transition: all 0.3s linear;
+	border-radius: 10px;
+	/* text-transform: uppercase; */
+	border: 2px solid var(--tertiary);
+}
+
 // Christmas hats
 // https://meta.discourse.org/t/christmas-hats/51846/20
 $url_of_christmas_hat_asset:'/errorpages/santa_100.png';
