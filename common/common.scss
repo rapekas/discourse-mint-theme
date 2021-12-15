@@ -42,19 +42,6 @@ input[type="color"]:focus,
   outline: none;
 }
 
-// #main-outlet::after {
-// 	content: "";
-// 	display: block;
-// 	position: fixed;
-// 	z-index: -1;
-// 	width: 500px;
-// 	height: 500px;
-// 	border-radius: 2000px;
-// 	background: linear-gradient(4deg, rgba(143,236,202,0.29) 55%, rgba(74,247,255,0.08) 100%);
-// 	right: 1px;
-// 	top: -57px;
-//}
-
 .md-table table thead tr {
 	background-color: revert;
 	border-top: 1px solid var(--border-default);
@@ -79,14 +66,14 @@ input[type="color"]:focus,
 // 	border: 2px solid var(--tertiary);
 // }
 //
-// #create-topic {
-// 	color: var(--secondary);
-// 	background: var(--tertiary);
-// 	transition: all 0.3s linear;
-// 	border-radius: 10px;
-// 	/* text-transform: uppercase; */
-// 	border: 2px solid var(--tertiary);
-// }
+#create-topic {
+	color: var(--secondary);
+	background: $color-mint;
+	transition: all 0.3s linear;
+	border-radius: 10px;
+	/* text-transform: uppercase; */
+	border: 2px solid var(--tertiary);
+}
 
 // End fix dark mode
 
