@@ -101,6 +101,17 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 }
 
 .alert.alert-info {
-	background-color: $color-mint-light;
+	background-color: $color-mint;
 	color: var(--primary);
 }
+
+.admin-controls .nav-pills > li a.active, .email-template .nav-pills > li a.active, .admin-container .nav-pills > li a.active {
+	background: $color-mint;
+	color: var(--secondary);
+}
+
+.admin-customize .themes-list-container .themes-list-item.selected {
+	color: $color-mint;
+	background-color: var(--tertiary);
+}
+
