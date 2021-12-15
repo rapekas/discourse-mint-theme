@@ -42,11 +42,6 @@ input[type="color"]:focus,
   outline: none;
 }
 
-// Fix dark mode
-#main-outlet {
-	background-color: revert;
-}
-
 // #main-outlet::after {
 // 	content: "";
 // 	display: block;
