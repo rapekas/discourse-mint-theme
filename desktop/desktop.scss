@@ -47,3 +47,12 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
 	text-transform: none;
 	border: 2px solid $color-mint;
 }
+
+.btn-default {
+    color: var(--secondary);
+    background: var(--tertiary);
+    transition: all 0.3s linear;
+    border-radius: 10px;
+    text-transform: none;
+    border: 1px solid var(--tertiary);
+}
