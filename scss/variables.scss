@@ -10,3 +10,12 @@ $color-mint: #75BDAD;
 $color-blue: #e5f8ff;
 $color-square-gradient: linear-gradient(4deg, rgba(143,236,202,.29) 55%, rgba(74, 247, 255, 0.08) 100%);
 $color-square-webkit-gradient: -webkit-linear-gradient(4deg, rgba(143,236,202,.29) 55%, rgba(74, 247, 255, 0.08) 100%);
+
+body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
+	border-radius: 10px;
+	box-shadow: 0 8px 60px 0 rgba(103,151,255,0.1),0 12px 90px 0 rgba(133,255,103,0.1);
+	padding: 2em;
+	background-color: revert;
+	border-top: 8px solid #82c3b5;
+	margin-top: .8em;
+}
