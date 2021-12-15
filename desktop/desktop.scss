@@ -38,3 +38,12 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   transform: rotate(74deg);
   transform-origin: 0 100%;
 }
+
+#create-topic {
+	color: var(--secondary);
+	background: $color-mint;
+	transition: all 0.3s linear;
+	border-radius: 10px;
+	text-transform: none;
+	border: 2px solid $color-mint;
+}
