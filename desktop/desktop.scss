@@ -49,7 +49,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
 }
 
 .btn-default {
-    color: $color-mint-dark;
+    color: var(--secondary);
     background: $color-mint;
     transition: all 0.3s linear;
     border-radius: 10px;
@@ -72,8 +72,15 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     justify-content: center;
     margin: 0;
     font-weight: normal;
-    color: $color-mint-dark;
+    color: var(--secondary);
     background: $color-mint;
     cursor: pointer;
     transition: all 0.25s;
+}
+
+.select-kit.dropdown-select-box .dropdown-select-box-header {
+    background: $color-mint;
+    border-radius: 10px;
+    border: 1px solid var(--tertiary);
+    color: var(--secondary);
 }
