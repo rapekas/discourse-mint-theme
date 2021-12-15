@@ -60,3 +60,20 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
 html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touch .btn-icon.btn-default .d-icon {
     color: $color-box-shadow;
 }
+
+.btn-primary {
+    border: 1px solid transparent;
+    font-size: var(--font-0);
+    line-height: normal;
+    box-sizing: border-box;
+    padding: .5em .65em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-weight: normal;
+    color: var(--secondary);
+    background: $color-mint;
+    cursor: pointer;
+    transition: all 0.25s;
+}
