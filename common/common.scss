@@ -518,6 +518,10 @@ p>img:not(.emoji){
 	top: -57px;
 }
 
+#main-outlet {
+	background-color: revert;
+}
+
 // Christmas hats
 // https://meta.discourse.org/t/christmas-hats/51846/20
 $url_of_christmas_hat_asset:'/errorpages/santa_100.png';
