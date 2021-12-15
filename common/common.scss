@@ -471,6 +471,21 @@ p>img:not(.emoji){
     padding: 0.15em 0.6em;
 }
 
+// Fix dark mode
+.md-table table thead tr {
+	background-color: revert;
+	border-top: 1px solid var(--border-default);
+}
+
+body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
+	border-radius: 10px;
+	box-shadow: 0 8px 60px 0 rgba(103,151,255,0.1),0 12px 90px 0 rgba(133,255,103,0.1);
+	padding: 2em;
+	background-color: revert;
+	border-top: 8px solid #82c3b5;
+	margin-top: .8em;
+}
+
 // Christmas hats
 // https://meta.discourse.org/t/christmas-hats/51846/20
 $url_of_christmas_hat_asset:'/errorpages/santa_100.png';
