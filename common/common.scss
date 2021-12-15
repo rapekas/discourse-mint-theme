@@ -42,55 +42,58 @@ input[type="color"]:focus,
   outline: none;
 }
 
+// Fix dark mode
 #main-outlet {
 	background-color: revert;
 }
 
-#main-outlet::after {
-	content: "";
-	display: block;
-	position: fixed;
-	z-index: -1;
-	width: 500px;
-	height: 500px;
-	border-radius: 2000px;
-	background: linear-gradient(4deg, rgba(143,236,202,0.29) 55%, rgba(74,247,255,0.08) 100%);
-	right: 1px;
-	top: -57px;
-}
+// #main-outlet::after {
+// 	content: "";
+// 	display: block;
+// 	position: fixed;
+// 	z-index: -1;
+// 	width: 500px;
+// 	height: 500px;
+// 	border-radius: 2000px;
+// 	background: linear-gradient(4deg, rgba(143,236,202,0.29) 55%, rgba(74,247,255,0.08) 100%);
+// 	right: 1px;
+// 	top: -57px;
+//}
 
 .md-table table thead tr {
 	background-color: revert;
 	border-top: 1px solid var(--border-default);
 }
 
-.list-controls .combo-box .combo-box-header {
-	border: none;
-	border-radius: 10px;
-	background-color: revert;
-}
+// .list-controls .combo-box .combo-box-header {
+// 	border: none;
+// 	border-radius: 10px;
+// 	background-color: revert;
+// }
+//
+// .nav-pills > li a.active {
+// 	color: var(--secondary);
+// 	background-color: var(--quaternary);
+// }
+//
+// .select-kit.single-select.dropdown-select-box .select-kit-header {
+// 	display: inline-flex;
+// 	align-items: center;
+// 	justify-content: space-between;
+// 	flex-direction: row;
+// 	border: 2px solid var(--tertiary);
+// }
+//
+// #create-topic {
+// 	color: var(--secondary);
+// 	background: var(--tertiary);
+// 	transition: all 0.3s linear;
+// 	border-radius: 10px;
+// 	/* text-transform: uppercase; */
+// 	border: 2px solid var(--tertiary);
+// }
 
-.nav-pills > li a.active {
-	color: var(--secondary);
-	background-color: var(--quaternary);
-}
-
-.select-kit.single-select.dropdown-select-box .select-kit-header {
-	display: inline-flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-direction: row;
-	border: 2px solid var(--tertiary);
-}
-
-#create-topic {
-	color: var(--secondary);
-	background: var(--tertiary);
-	transition: all 0.3s linear;
-	border-radius: 10px;
-	/* text-transform: uppercase; */
-	border: 2px solid var(--tertiary);
-}
+// End fix dark mode
 
 .d-header {
   height: 5em;
@@ -520,13 +523,6 @@ p>img:not(.emoji){
     min-width: 24px;
     padding: 0.15em 0.6em;
 }
-
-// Fix dark mode
-
-
-
-
-
 
 // Christmas hats
 // https://meta.discourse.org/t/christmas-hats/51846/20
