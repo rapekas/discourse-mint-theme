@@ -483,12 +483,9 @@ p>img:not(.emoji){
 	background-color: revert;
 }
 
-.nav-pills li a.active {
-	border-radius: 10px;
-	transition: all 0.3s linear;
-	/* background: #75BDAD; */
+.nav-pills > li a.active {
 	color: var(--secondary);
-	/* border: 1px solid #75BDAD; */
+	background-color: var(--quaternary);
 }
 
 .select-kit.single-select.dropdown-select-box .select-kit-header {
@@ -506,6 +503,19 @@ p>img:not(.emoji){
 	border-radius: 10px;
 	/* text-transform: uppercase; */
 	border: 2px solid var(--tertiary);
+}
+
+#main-outlet::after {
+	content: "";
+	display: block;
+	position: fixed;
+	z-index: -1;
+	width: 500px;
+	height: 500px;
+	border-radius: 2000px;
+	background: linear-gradient(4deg, rgba(143,236,202,0.29) 55%, rgba(74,247,255,0.08) 100%);
+	right: 1px;
+	top: -57px;
 }
 
 // Christmas hats
