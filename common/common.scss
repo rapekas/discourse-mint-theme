@@ -351,3 +351,122 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     border: 1px dashed var(--tertiary);
   }
 }
+
+// Inline code colors
+
+p>code, li>code {
+   color: #C0341D;
+   //background: #FCEDEA;
+   background: #FAFAFA;
+   padding: 2px 4px;
+   border-radius: 2px;
+}
+
+// Green thumbs-up
+
+.reaction-button .d-icon {
+    color: var(--primary-low-mid) !important;
+}
+
+// Green assignee icon
+
+.assigned-to .d-icon, .assigned-to i.fa {
+    margin-right: 0.25em;
+    color: var(--success);
+}
+
+// Grey fonts (headers) var(--primary) or var(--primary-high)
+
+#topic-title h1 a {
+    color: var(--primary-high);
+}
+
+.extra-info-wrapper .topic-link {
+    color: var(--primary-high);
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.category-list tbody .category h3 a[href], .category-list tbody .category h4 a[href] {
+    color: var(--primary-high);
+}
+
+.docs-browse .docs-items h3 {
+    color: var(--primary-high);
+    font-size: var(--font-up-1);
+}
+
+.categories-list .category h3, .categories-list .category h4 {
+    color: var(--primary-high);
+    margin-bottom: 0;
+}
+
+// Center images
+
+.lightbox-wrapper {
+    display: block;
+    text-align: center;
+
+}
+
+p>img:not(.emoji){
+    display: block;
+    margin: 0 auto;
+}
+
+// Word wrap in code block + full content
+
+.hljs {
+    display: block;
+    padding: 0.5em;
+    color: var(--primary-very-high);
+    // disable horizontal scroll
+    overflow-x: auto;
+    white-space: pre-wrap;
+    // disable vertical scroll
+    max-height: fit-content;
+}
+
+// Fix huge topic margins
+
+.topic-avatar {
+    padding-top: 0px;
+}
+
+.topic-post.sticky-avatar .topic-avatar {
+    margin-bottom: 0px;
+}
+
+.topic-body {
+    padding: 0px 0 0 0;
+}
+
+// Gitlab theme component font color fix
+
+.cooked blockquote {
+    padding: 8px 24px;
+    background: none;
+    color: var(--primary-high);
+    border-left: 3px solid var(--canvas-default);
+}
+
+// Original <kbd> over  Gitlab theme component
+
+.cooked kbd {
+    align-items: center;
+    border: 1px solid var(--primary-low-mid);
+    background: var(--primary-very-low);
+    border-bottom-width: 2px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: var(--primary);
+    display: inline-flex;
+    font-size: var(--font-down-1);
+    justify-content: center;
+    line-height: var(--line-height-large);
+    margin: 0 0.15em;
+    min-width: 24px;
+    padding: 0.15em 0.6em;
+}
