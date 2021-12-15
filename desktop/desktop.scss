@@ -50,9 +50,9 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
 
 .btn-default {
     color: var(--secondary);
-    background: var(--tertiary);
+    background: $color-mint;
     transition: all 0.3s linear;
     border-radius: 10px;
     text-transform: none;
-    border: 1px solid var(--tertiary);
+    border: 1px solid $color-mint;
 }
