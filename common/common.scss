@@ -183,13 +183,13 @@ a {
     color: var(--secondary);
   }
   &:hover {
-    background: var(--tertiary);
+    background: $color-mint-dark;
     color: var(--secondary);
-    box-shadow: 4px 4px $color-box-shadow;
-    transition: all 0.3s linear;
-    @include border-radius;
-    .fa {
-      color: var(--secondary);
+    //box-shadow: 4px 4px $color-box-shadow;
+    //transition: all 0.3s linear;
+    //@include border-radius;
+    //.fa {
+    //  color: var(--secondary);
     }
   }
 }
