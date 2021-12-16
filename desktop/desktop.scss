@@ -125,3 +125,8 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 summary.select-kit-header.single-select-header.dropdown-select-box-header {
     padding: 0em;
 }
+
+.md-table table thead tr {
+	background-color: revert;
+	border-top: 1px solid var(--border-default);
+}
