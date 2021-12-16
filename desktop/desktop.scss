@@ -102,7 +102,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 
 .alert.alert-info {
 	background-color: $color-mint;
-	color: var(--primary);
+	color: var(--secondary);
 }
 
 .admin-controls .nav-pills > li a.active, .email-template .nav-pills > li a.active, .admin-container .nav-pills > li a.active {
@@ -120,4 +120,8 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 	background-color: $color-mint;
 	position: relative;
 	--arrow-thickness: 8px;
+}
+
+summary.select-kit-header.single-select-header.dropdown-select-box-header {
+    padding: 0em;
 }
