@@ -101,8 +101,9 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 }
 
 .alert.alert-info {
-	background-color: $color-mint;
+	background-color: revert;
 	color: var(--secondary);
+	border-style: dotted;
 }
 
 .admin-controls .nav-pills > li a.active, .email-template .nav-pills > li a.active, .admin-container .nav-pills > li a.active {
