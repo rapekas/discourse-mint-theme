@@ -127,3 +127,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 	background-color: revert;
 	border-top: 1px solid var(--border-default);
 }
+
+.menu-panel .category-links {
+	display: none;
+}
