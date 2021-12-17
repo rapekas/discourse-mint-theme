@@ -1,42 +1,42 @@
 @import 'variables';
 
 body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
-  @include border-radius;
-  box-shadow: 0 8px 60px 0 rgba(103,151,255,.10), 0 12px 90px 0 rgba(133,255,103,.10);
-  padding: 2em;
-  // fix dark mode
-  background-color: revert;
-  border-top: 8px solid $tertiary;
-  margin-top: .8em;
+    @include border-radius;
+    box-shadow: 0 8px 60px 0 rgba(103,151,255,.10), 0 12px 90px 0 rgba(133,255,103,.10);
+    padding: 2em;
+    // fix dark mode
+    background-color: revert;
+    border-top: 8px solid $tertiary;
+margin-top: .8em;
 }
 
 #main-outlet:after  {
-  content: "";
-  display: block;
-  position: fixed;
-  z-index: -1;
-  width: 500px;
-  height: 500px;
-  border-radius: 2000px;
-  background: $color-square-gradient;
-  right: 1px;
-  top: -57px;
+    content: "";
+    display: block;
+    position: fixed;
+    z-index: -1;
+    width: 500px;
+    height: 500px;
+    border-radius: 2000px;
+    background: $color-square-gradient;
+    right: 1px;
+top: -57px;
 }
 
 #main-outlet:before {
-  content: "";
-  display: block;
-  position: fixed;
-  z-index: -1;
-  width: 300px;
-  height: 300px;
-  border-radius: 30px;
-  background: $color-square-webkit-gradient;
-  background: $color-square-gradient;
-  left: 70px;
-  top: 350px;
-  transform: rotate(74deg);
-  transform-origin: 0 100%;
+    content: "";
+    display: block;
+    position: fixed;
+    z-index: -1;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background: $color-square-webkit-gradient;
+    background: $color-square-gradient;
+    left: 70px;
+    top: 350px;
+    transform: rotate(74deg);
+transform-origin: 0 100%;
 }
 
 #create-topic {
@@ -80,9 +80,15 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 }
 
 .select-kit.dropdown-select-box .dropdown-select-box-header {
-    background: $color-mint;
+    background: none;
     border-radius: 10px;
-    border: none;
+    border: dotted;
+    color: $color-mint;
+    .fa {
+    color: var(--secondary);
+    }
+    &:hover {
+    background: $color-mint-dark;
     color: var(--secondary);
 }
 
