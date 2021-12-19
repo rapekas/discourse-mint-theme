@@ -98,15 +98,15 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     background: none;
     border-radius: 10px;
     border: dotted;
-    //color: $color-mint;
+    color: $color-mint;
     .fa {
     //color: revert;
-    color: #999999;
+    color: #999999 !important;
     }
-    &:hover {
+    //&:hover {
     //color: var(--primary);
-    color: $color-mint !important;
-    }
+    //color: $color-mint !important;
+    //}
 }
 
 .d-toc-regular .d-toc-toggle {
