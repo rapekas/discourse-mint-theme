@@ -69,10 +69,9 @@ html .nav-pills > li > a:not(.active):hover {
 
 html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touch .btn-icon.btn-default .d-icon {
     //color: $color-box-shadow;
-    color: var(--primary);
-    &:hover {
-    //background: $color-mint-dark;
     color: revert;
+    &:hover {
+    color: var(--primary);
     }
 }
 
@@ -103,8 +102,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     color: revert;
     }
     &:hover {
-    //background: $color-mint-dark;
-    //color: var(--primary);
+    color: var(--primary);
     }
 }
 
