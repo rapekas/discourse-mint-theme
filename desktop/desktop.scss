@@ -39,6 +39,11 @@ top: -57px;
 transform-origin: 0 100%;
 }
 
+html .nav-pills > li > a:not(.active):hover {
+	background: $color-mint-dark;
+	color: var(--primary);
+}
+
 #create-topic {
 	color: var(--secondary);
 	background: $color-mint;
@@ -46,6 +51,7 @@ transform-origin: 0 100%;
 	border-radius: 10px;
 	text-transform: none;
 	border: 2px solid $color-mint;
+	font-size: var(--font-up-1);
 }
 
 .btn-default {
@@ -116,10 +122,6 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 .admin-controls .nav-pills > li a.active, .email-template .nav-pills > li a.active, .admin-container .nav-pills > li a.active {
 	background: $color-mint;
 	color: var(--secondary);
-}
-
-.nav-pills li a.active {
-	font-size: var(--font-0);
 }
 
 .admin-customize .themes-list-container .themes-list-item.selected {
