@@ -116,6 +116,9 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 .admin-controls .nav-pills > li a.active, .email-template .nav-pills > li a.active, .admin-container .nav-pills > li a.active {
 	background: $color-mint;
 	color: var(--secondary);
+}
+
+.nav-pills li a.active {
 	font-size: var(--font-0);
 }
 
