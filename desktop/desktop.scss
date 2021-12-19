@@ -100,13 +100,11 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     border: dotted;
     color: $color-mint;
     .fa {
-    //color: revert;
-    color: #999999 !important;
+    color: $color-mint !important;
     }
-    //&:hover {
-    //color: var(--primary);
-    //color: $color-mint !important;
-    //}
+    &:hover {
+    color: var(--primary) !important;
+    }
 }
 
 .d-toc-regular .d-toc-toggle {
