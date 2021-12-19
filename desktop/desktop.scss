@@ -105,7 +105,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     }
     &:hover {
     //color: var(--primary);
-    color: $color-mint;
+    color: $color-mint !important;
     }
 }
 
