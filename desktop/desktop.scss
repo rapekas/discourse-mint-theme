@@ -68,10 +68,11 @@ html .nav-pills > li > a:not(.active):hover {
 }
 
 html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touch .btn-icon.btn-default .d-icon {
-    color: $color-box-shadow;
+    //color: $color-box-shadow;
+    color: var(--primary);
     &:hover {
     //background: $color-mint-dark;
-    color: var(--primary);
+    color: revert;
     }
 }
 
@@ -151,32 +152,20 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 
 .menu-panel .category-links {
 	display: none;
-	.fa {
-    color: var(--secondary);
-    }
 }
 
 // Hide topic buttons
 // Defer
 #topic-footer-button-defer {
 	display: none;
-	.fa {
-    color: var(--secondary);
-    }
 }
 
 // Flag
 #topic-footer-button-flag {
 	display: none;
-	.fa {
-    color: var(--secondary);
-    }
 }
 
 // Bookmark
 #topic-footer-button-bookmark {
 	display: none;
-	.fa {
-    color: var(--secondary);
-    }
 }
