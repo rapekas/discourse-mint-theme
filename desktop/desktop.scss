@@ -53,7 +53,7 @@ html .nav-pills > li > a:not(.active):hover {
 	border: 2px solid $color-mint;
 	font-size: var(--font-up-1);
 	&:hover {
-    background: $color-mint-dark;
+    //background: $color-mint-dark;
     color: var(--primary);
     }
 }
@@ -70,7 +70,7 @@ html .nav-pills > li > a:not(.active):hover {
 html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touch .btn-icon.btn-default .d-icon {
     color: $color-box-shadow;
     &:hover {
-    background: $color-mint-dark;
+    //background: $color-mint-dark;
     color: var(--primary);
     }
 }
