@@ -52,7 +52,10 @@ html .nav-pills > li > a:not(.active):hover {
 	text-transform: none;
 	border: 2px solid $color-mint;
 	//font-size: var(--font-up-1);
-	&:hover {
+    .fa {
+    color: revert;
+    }
+    &:hover {
     color: var(--primary);
     }
 }
