@@ -52,6 +52,10 @@ html .nav-pills > li > a:not(.active):hover {
 	text-transform: none;
 	border: 2px solid $color-mint;
 	font-size: var(--font-up-1);
+	&:hover {
+    background: $color-mint-dark;
+    color: var(--primary);
+    }
 }
 
 .btn-default {
@@ -95,7 +99,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     }
     &:hover {
     background: $color-mint-dark;
-    color: var(--secondary);
+    color: var(--primary);
     }
 }
 
