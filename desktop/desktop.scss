@@ -99,11 +99,11 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     border: dotted;
     color: $color-mint;
     .fa {
-    color: var(--secondary);
+    color: revert;
     }
     &:hover {
     //background: $color-mint-dark;
-    color: var(--primary);
+    color: revert;
     }
 }
 
