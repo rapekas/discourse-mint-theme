@@ -138,3 +138,19 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 .menu-panel .category-links {
 	display: none;
 }
+
+// Hide topic buttons
+// Defer
+#topic-footer-button-defer {
+	display: none;
+}
+
+// Flag
+#topic-footer-button-flag {
+	display: none;
+}
+
+// Bookmark
+#topic-footer-button-bookmark {
+	display: none;
+}
