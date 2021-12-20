@@ -55,28 +55,21 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 // Chat btn
 .before-create-topic-button-outlet.category-tag-chat-link-connector .category-tag-chat-link {
 	margin-left: 0.5em;
-	transition: all 0.3s linear;
-	border-radius: 10px;
-	text-transform: none;
-	border: 2px solid $color-mint;
+// 	transition: all 0.3s linear;
+// 	border-radius: 10px;
+// 	text-transform: none;
+// 	border: 2px solid $color-mint;
 	//font-size: var(--font-up-1);
-    .fa {
-    color: revert;
-    }
-    &:hover {
-    background: $color-mint;
-    color: var(--primary);
-    }
 }
 
 // Create topic btn
 #create-topic {
-	color: var(--secondary);
-	background: $color-mint;
-	transition: all 0.3s linear;
-	border-radius: 10px;
-	text-transform: none;
-	border: 2px solid $color-mint;
+// 	color: var(--secondary);
+// 	background: $color-mint;
+// 	transition: all 0.3s linear;
+// 	border-radius: 10px;
+// 	text-transform: none;
+// 	border: 2px solid $color-mint;
 	//font-size: var(--font-up-1);
     .fa {
     color: revert;
@@ -93,6 +86,13 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     border-radius: 10px;
     text-transform: none;
     border: 1px solid $color-mint-dark;
+    .fa {
+    color: revert;
+    }
+    &:hover {
+    background: $color-mint;
+    color: var(--primary);
+    }
 }
 
 .btn-primary {
