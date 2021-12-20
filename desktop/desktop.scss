@@ -44,6 +44,15 @@ html .nav-pills > li > a:not(.active):hover {
 	color: var(--primary);
 }
 
+// Settings btn
+html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touch .btn-icon.btn-default .d-icon {
+    color: revert;
+    &:hover {
+    background: $color-mint;
+    color: var(--primary);
+    }
+}
+
 // Chat btn
 .before-create-topic-button-outlet.category-tag-chat-link-connector .category-tag-chat-link {
 	margin-left: 0.5em;
@@ -56,6 +65,7 @@ html .nav-pills > li > a:not(.active):hover {
     color: revert;
     }
     &:hover {
+    background: $color-mint;
     color: var(--primary);
     }
 }
@@ -84,13 +94,6 @@ html .nav-pills > li > a:not(.active):hover {
     border-radius: 10px;
     text-transform: none;
     border: 1px solid $color-mint-dark;
-}
-
-html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touch .btn-icon.btn-default .d-icon {
-    color: revert;
-    &:hover {
-    color: var(--primary);
-    }
 }
 
 .btn-primary {
