@@ -44,17 +44,6 @@ html .nav-pills > li > a:not(.active):hover {
 	color: var(--primary);
 }
 
-// Navigation btns
-.navigation-controls {
-	display: flex;
-	align-items: stretch;
-	margin-bottom: var(--nav-space);
-	&:hover {
-    background: $color-mint;
-    color: var(--primary);
-    }
-}
-
 // Icon hover
 html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touch .btn-icon.btn-default .d-icon {
     color: revert;
