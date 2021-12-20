@@ -44,6 +44,23 @@ html .nav-pills > li > a:not(.active):hover {
 	color: var(--primary);
 }
 
+// Chat btn
+.before-create-topic-button-outlet.category-tag-chat-link-connector .category-tag-chat-link {
+	margin-left: 0.5em;
+	transition: all 0.3s linear;
+	border-radius: 10px;
+	text-transform: none;
+	border: 2px solid $color-mint;
+	//font-size: var(--font-up-1);
+    .fa {
+    color: revert;
+    }
+    &:hover {
+    color: var(--primary);
+    }
+}
+
+// Create topic btn
 #create-topic {
 	color: var(--secondary);
 	background: $color-mint;
