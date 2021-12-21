@@ -41,14 +41,16 @@ transform-origin: 0 100%;
 
 html .nav-pills > li > a:not(.active):hover {
 	background: $color-mint-light;
-	color: var(--primary);
+	//color: var(--primary);
+	color: $color-mint-dark;
 }
 
 // Icon hover
 html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touch .btn-icon.btn-default .d-icon {
     color: revert;
     &:hover {
-    color: var(--primary);
+    //color: var(--primary);
+    color: $color-mint-dark;
     }
 }
 
@@ -58,7 +60,8 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 	//font-size: var(--font-up-1);
 	&:hover {
     background: $color-mint;
-    color: var(--primary);
+    //color: var(--primary);
+    color: $color-mint-dark;
     }
 }
 
@@ -76,7 +79,8 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     }
     &:hover {
     background: $color-mint-light;
-    color: var(--primary);
+    //color: var(--primary);
+    color: $color-mint-dark;
     }
 }
 
@@ -119,7 +123,8 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     color: $color-mint !important;
     }
     &:hover {
-    border: solid;
+    border: 1px solid;
+    color: $color-mint-dark;
     }
 }
 
