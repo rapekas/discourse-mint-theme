@@ -211,7 +211,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 }
 
 .btn-danger, .json-schema-editor-modal .json-editor-btn-delete {
-	border: 1px solid transparent;
+	border: 2px solid transparent !important;
 	font-size: var(--font-0);
 	line-height: normal;
 	box-sizing: border-box;
@@ -225,4 +225,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 	background: var(--danger) !important;
 	cursor: pointer;
 	transition: all 0.3s linear;
+	&:hover {
+    color: revert;
+    }
 }
