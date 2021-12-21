@@ -221,11 +221,12 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 	justify-content: center;
 	margin: 0;
 	font-weight: normal;
-	color: var(--secondary) !important;
+	color: var(--secondary);
 	background: var(--danger) !important;
 	cursor: pointer;
 	transition: all 0.3s linear;
 	&:hover {
-    color: revert !important;
+	font-color: #ffc7b7 !important;
+    //color: #ffc7b7 !important;
     }
 }
