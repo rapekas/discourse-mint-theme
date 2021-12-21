@@ -225,12 +225,4 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 	background: var(--danger);
 	cursor: pointer;
 	transition: all 0.3s linear;
-	.fa {
-    color: revert;
-    }
-    &:hover {
-    background: $color-mint-light;
-    //color: var(--primary);
-    color: $color-mint-dark;
-    }
 }
