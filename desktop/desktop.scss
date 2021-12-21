@@ -66,7 +66,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 }
 
 // Create topic btn
-#create-topic, .modal-footer {
+#create-topic {
 	color: var(--secondary);
 	background: $color-mint;
 	transition: all 0.3s linear;
@@ -188,4 +188,49 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 // Bookmark
 #topic-footer-button-bookmark {
 	display: none;
+}
+
+// Draft modal window
+.modal-footer .btn {
+	margin: 0 0.75em var(--btn-bottom-margin) 0;
+    color: var(--secondary);
+	background: $color-mint;
+	transition: all 0.3s linear;
+	border-radius: 10px;
+	text-transform: none;
+	border: 2px solid $color-mint;
+	//font-size: var(--font-up-1);
+    .fa {
+    color: revert;
+    }
+    &:hover {
+    background: $color-mint-light;
+    //color: var(--primary);
+    color: $color-mint-dark;
+    }
+}
+
+.btn-danger, .json-schema-editor-modal .json-editor-btn-delete {
+	border: 1px solid transparent;
+	font-size: var(--font-0);
+	line-height: normal;
+	box-sizing: border-box;
+	padding: .5em .65em;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	font-weight: normal;
+	color: var(--secondary);
+	background: var(--danger);
+	cursor: pointer;
+	transition: all 0.3s linear;
+	.fa {
+    color: revert;
+    }
+    &:hover {
+    background: $color-mint-light;
+    //color: var(--primary);
+    color: $color-mint-dark;
+    }
 }
