@@ -222,7 +222,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 	margin: 0;
 	font-weight: normal;
 	color: var(--secondary);
-	background: var(--danger);
+	background: var(--danger) !important;
 	cursor: pointer;
 	transition: all 0.3s linear;
 }
