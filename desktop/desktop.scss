@@ -219,14 +219,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	margin: 0;
 	font-weight: normal;
-	color: var(--secondary);
 	background: var(--danger) !important;
 	cursor: pointer;
-	transition: all 0.3s linear;
-	&:hover {
-	font-color: #ffc7b7 !important;
-    //color: #ffc7b7 !important;
-    }
 }
