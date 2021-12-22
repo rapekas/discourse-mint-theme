@@ -10,6 +10,10 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
 margin-top: .8em;
 }
 
+.navigation-categories .navigation-container, .categories-list .navigation-container {
+    border-bottom: none;
+}
+
 #main-outlet:after  {
     content: "";
     display: block;
@@ -146,7 +150,7 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 
 .alert.alert-info {
 	background-color: revert;
-	color: revert;
+	color: $color-mint;
 	border-style: dotted;
 }
 
