@@ -152,6 +152,9 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
 	background-color: revert;
 	color: $color-mint;
 	border-style: dotted;
+	// New or unread topics alert
+	padding: 8px 120px 8px 90px;
+    margin: 4px 0px 0px 0px;
 }
 
 .admin-controls .nav-pills > li a.active, .email-template .nav-pills > li a.active, .admin-container .nav-pills > li a.active {
