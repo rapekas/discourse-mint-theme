@@ -161,6 +161,10 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     padding: 8px 120px 8px 90px;
 }
 
+tbody {
+    border-top: 1px solid var(--primary-low);
+}
+
 .admin-controls .nav-pills > li a.active, .email-template .nav-pills > li a.active, .admin-container .nav-pills > li a.active {
 	background: $color-mint;
 	color: var(--secondary);
