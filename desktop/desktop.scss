@@ -157,6 +157,10 @@ html.discourse-no-touch .btn-default.btn-default .d-icon, html.discourse-no-touc
     margin: 4px 0px 0px 0px;
 }
 
+#list-area .show-more.has-topics .alert {
+    padding: none;
+}
+
 .admin-controls .nav-pills > li a.active, .email-template .nav-pills > li a.active, .admin-container .nav-pills > li a.active {
 	background: $color-mint;
 	color: var(--secondary);
