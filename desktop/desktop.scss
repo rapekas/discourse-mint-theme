@@ -242,18 +242,18 @@ tbody {
 }
 
 // Topic chat btn
-.topic-title-chat-icon {
-    display: inline-block;
-    margin-right: 10px;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 4px;
-    margin-bottom: 10px;
-    &:hover {
-        border: 1px dotted rgba(var(--primary-rgb),0.25);
-        opacity: 1;
-    }
-}
+// .topic-title-chat-icon {
+//     display: inline-block;
+//     margin-right: 10px;
+//     border: 1px solid;
+//     border-radius: 10px;
+//     padding: 4px;
+//     margin-bottom: 10px;
+//     &:hover {
+//         border: 1px dotted rgba(var(--primary-rgb),0.25);
+//         opacity: 1;
+//     }
+// }
 
 // Category box component dark mode fix
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
