@@ -3,7 +3,15 @@
   "about_url": null,
   "license_url": null,
   "color_schemes": {
-    "mint": {
+    "mint-light": {
+      "primary": "454545",
+      "secondary": "F6FBFC",
+      "tertiary": "82c3b5",
+      "quaternary": "5b887e",
+      "header_background": "ffffff",
+      "header_primary": "111111"
+    },
+    "mint-dark": {
       "primary": "454545",
       "secondary": "F6FBFC",
       "tertiary": "82c3b5",
