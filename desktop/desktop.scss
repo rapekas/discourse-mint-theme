@@ -254,3 +254,8 @@ tbody {
         opacity: 1;
     }
 }
+
+// Category box component dark mode fix
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
+	border: 1px solid $color-mint-dark;
+}
