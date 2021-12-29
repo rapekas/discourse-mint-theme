@@ -6,7 +6,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     padding: 2em;
     // fix dark mode
     background-color: revert;
-    border-top: 8px solid $tertiary;
+    border-top: 8px solid $color-mint-light;
 margin-top: .8em;
 }
 
