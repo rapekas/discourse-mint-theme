@@ -259,3 +259,8 @@ tbody {
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
 	border: 1px solid $color-mint-dark;
 }
+
+// Category box component padding-top
+.navigation-categories .list-container, .categories-list .list-container {
+	padding-top: 0px;
+}
