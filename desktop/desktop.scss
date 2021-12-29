@@ -264,3 +264,8 @@ tbody {
 .navigation-categories .list-container, .categories-list .list-container {
 	padding-top: 0px;
 }
+
+// Notification bubble color
+.badge-notification.unread-posts {
+	background-color: $color-mint-light;
+}
