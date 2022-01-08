@@ -478,16 +478,16 @@ p>img:not(.emoji){
 
 // Christmas hats
 // https://meta.discourse.org/t/christmas-hats/51846/20
-$url_of_christmas_hat_asset:'/errorpages/santa_100.png';
-
-.post-avatar::after {
-  position: absolute;
-  content: '';
-  display: block;
-  top: -30px;
-  left: -24px;
-  width: 80px;
-  height: 80px;
-  background: url($url_of_christmas_hat_asset) no-repeat center;
-  background-size: contain;
-}
+// $url_of_christmas_hat_asset:'/errorpages/santa_100.png';
+//
+// .post-avatar::after {
+//   position: absolute;
+//   content: '';
+//   display: block;
+//   top: -30px;
+//   left: -24px;
+//   width: 80px;
+//   height: 80px;
+//   background: url($url_of_christmas_hat_asset) no-repeat center;
+//   background-size: contain;
+// }
