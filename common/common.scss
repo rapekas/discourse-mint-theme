@@ -438,6 +438,11 @@ p>img:not(.emoji){
 
 .topic-avatar {
     padding-top: 0px;
+    margin-bottom: 12px !important;
+}
+
+.topic-meta-data .names {
+    display: none;
 }
 
 .topic-post.sticky-avatar .topic-avatar {
